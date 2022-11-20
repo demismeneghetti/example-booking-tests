@@ -1,0 +1,26 @@
+{
+  "name": "wdio-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run wdio.conf.js",
+    "format": "prettier --write test",
+    "lint": "eslint test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/register": "^7.18.9",
+    "@wdio/cli": "^7.26.0",
+    "@wdio/local-runner": "^7.26.0",
+    "@wdio/mocha-framework": "^7.26.0",
+    "@wdio/selenium-standalone-service": "^7.26.0",
+    "@wdio/spec-reporter": "^7.26.0",
+    "eslint": "^8.28.0",
+    "eslint-plugin-wdio": "^7.25.3",
+    "prettier": "^2.7.1"
+  }
+}
