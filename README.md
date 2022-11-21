@@ -3,7 +3,9 @@
     Example Booking Tests for D.E.U.S. Company.
 </h1>
 
-![Gif Running Tests](docs/Kapture%202022-11-21%20at%2013.41.46.gif)
+<p align="center">
+<img src="docs/Kapture%202022-11-21%20at%2013.41.46.gif"/>
+</p>
 
 - [🖐🏻 Approach](#-approach)
   - [💾 Dependecies](#-dependecies)
