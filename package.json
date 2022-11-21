@@ -8,7 +8,7 @@
     "format": "prettier --write test",
     "lint": "eslint test"
   },
-  "author": "",
+  "author": "Demis Meneghetti",
   "license": "ISC",
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",

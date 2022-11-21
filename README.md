@@ -3,9 +3,15 @@
     Example Booking Tests for D.E.U.S. Company.
 </h1>
 
-<p align="center">
-<img src="docs/Kapture%202022-11-21%20at%2013.41.46.gif"/>
+<p align="justify"> 
+A search on the Booking.com website was proposed for this challenge, using the city of Porto, check-in for the 1st day of the next month, and check-out for the 7th day of the next month. 
+
+After consulting the automation, it must log the number of properties and list all the properties presented on the first page.
+
+Below we have an index with all the necessary steps to read, execute and maintain the code.
 </p>
+
+<br>
 
 - [🖐🏻 Approach](#-approach)
   - [💾 Dependecies](#-dependecies)
@@ -14,6 +20,12 @@
   - [🛥 Example to select browsers:](#-example-to-select-browsers)
   - [🔎 Inspection Code](#-inspection-code)
   - [✅ Test Execution](#-test-execution)
+
+<br>
+
+<p align="center">
+<img src="docs/Kapture%202022-11-21%20at%2013.41.46.gif"/>
+</p>
 
 <br>
 
