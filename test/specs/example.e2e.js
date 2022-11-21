@@ -1,6 +1,5 @@
 import HomePage from "../pageobjects/home.page";
 import SearchResultsPage from "../pageobjects/results.page";
-// import SecurePage from '../pageobjects/secure.page';
 
 describe("Booking", () => {
   beforeEach(async () => {
@@ -13,7 +12,7 @@ describe("Booking", () => {
    *    - Não utilizar "Barcelona"   como exemplo, seletor apresenta ambiguidade
    *    e seleciona outros elementos na página
    */
-  it("should accept to reserve a new traverl", async () => {
+  it("should accept to reserve a new travel", async () => {
     let destination = "Porto";
 
     await HomePage.defineDestination(destination);

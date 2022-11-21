@@ -1,7 +1,7 @@
 {
-  "name": "wdio-demo",
+  "name": "example-booking-tests",
   "version": "1.0.0",
-  "description": "",
+  "description": "Example Booking Tests for D.E.U.S. Company",
   "main": "index.js",
   "scripts": {
     "test": "wdio run wdio.conf.js",

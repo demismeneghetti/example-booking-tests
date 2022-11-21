@@ -1,24 +1,50 @@
-# Booking Tests for D.E.U.S. Challenge
 
-TBD
+<h1 align="center"> 
+    Example Booking Tests for D.E.U.S. Company.
+</h1>
 
-- [💾 Approach](#-approach)
+![Gif Running Tests]((https://github.com/demismeneghetti/example-booking-tests/tree/main/docs/../../../../../../../docs/Kapture%202022-11-21%20at%2013.41.46.gif))
+
+- [🖐🏻 Approach](#-approach)
+  - [💾 Dependecies](#-dependecies)
 - [📁 How to access the project](#-how-to-access-the-project)
 - [🛠️ Open and run the project](#️-open-and-run-the-project)
-  - [Test Execution](#test-execution)
+  - [🛥 Example to select browsers:](#-example-to-select-browsers)
+  - [🔎 Inspection Code](#-inspection-code)
+  - [✅ Test Execution](#-test-execution)
 
-## 💾 Approach
+<br>
 
-I preferred using the best practices and approaches for in the future we have easy maintenance and evolution.
+## 🖐🏻 Approach
 
-For this project, I decided to use the WebdriverIO framework... for more details, please access the [documentation](https://webdriver.io/).
+I preferred using the best practices and approaches for in the future we have easy maintenance and the best project evolution.
+
+For this project, I decided to use the WebdriverIO framework because I haven't experience with Cypress. For more details about WebdriveIO, please access the [documentation](https://webdriver.io/).
+
+### 💾 Dependecies
+- Node
+- WebdriverIO
+- JDK11 - [Download](https://www.oracle.com/pt/java/technologies/javase/jdk11-archive-downloads.html)
+
+<br>
 
 ## 📁 How to access the project
-For clonate this project click ![here](https://github.com/demismeneghetti/booking-tests.git)
+To clone this project click [here](https://github.com/demismeneghetti/booking-tests.git)
+
+To install all dependencies and run, just execute the below command in the root folder:
+```sh
+npm install
+```
+
+<br>
 
 ## 🛠️ Open and run the project
 
-This project is able to ran all tests in Google Chrome Browser, if you like to performing the tests in another browser, fell free to change the [configuration file](wdio.conf.js#L50). Example:
+This project is able to run all tests in Google Chrome Browser, if you like to perform the tests in another browser, feel free to change the [configuration file](wdio.conf.js#L50). 
+
+<br>
+
+### 🛥 Example to select browsers:
 
 - Google Chrome
 
@@ -58,13 +84,13 @@ capabilities: [
 
 > Remeber to enable the [Webdriver Support](https://developer.apple.com/documentation/webkit/testing_with_webdriver_in_safari)
 
-- Multiple Browser in the same time
+- For multiple Browser at the same time
 
 ```js
 capabilities: [
 {
     maxInstances: 1,
-    browserName: "firefox",
+    browserName: "chrome",
     acceptInsecureCerts: true,
   },
   {
@@ -75,16 +101,9 @@ capabilities: [
 ]
 ```
 
-### Test Execution
+<br>
 
-TBD
-
-```sh
-npm test
-```
-
-### Inspection
-
+### 🔎 Inspection Code
 - Lint
 
 A tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs. Use the command below to verify this project:
@@ -109,4 +128,12 @@ Keep the code with a default formatter pattern defined by the company, for this 
 
 ```sh
 npm run format
+```
+
+<br>
+
+### ✅ Test Execution
+
+```sh
+npm test
 ```

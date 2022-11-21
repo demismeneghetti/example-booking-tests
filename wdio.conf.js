@@ -3,7 +3,10 @@ exports.config = {
   // ====================
   // Runner Configuration
   // ====================
-  //
+  runner: "local",
+  host: "127.0.0.1",
+  port: 4444,
+  path: "/wd/hub",
   //
   // ==================
   // Specify Test Files
