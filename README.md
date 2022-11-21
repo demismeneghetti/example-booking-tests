@@ -3,7 +3,7 @@
     Example Booking Tests for D.E.U.S. Company.
 </h1>
 
-![Gif Running Tests]((https://github.com/demismeneghetti/example-booking-tests/tree/main/docs/../../../../../../../docs/Kapture%202022-11-21%20at%2013.41.46.gif))
+![Gif Running Tests](docs/Kapture%202022-11-21%20at%2013.41.46.gif)
 
 - [🖐🏻 Approach](#-approach)
   - [💾 Dependecies](#-dependecies)
